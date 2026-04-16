@@ -3,6 +3,6 @@ import './bootstrap';
 import { createInertiaApp } from '@inertiajs/react'
 
 createInertiaApp({
-    pages: './AppPages',
+    pages: './Pages',
     strictMode: true,
 });
