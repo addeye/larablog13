@@ -7,7 +7,7 @@ export default function Show() {
   return (
     <Layout>
         <Head title="Welcome" />
-        <h1>Welcome</h1>
+        <h1>Welcome Home</h1>
         <p>Hello welcome to your first Inertia app!</p>
 
     <div className="flex flex-wrap items-center gap-2 md:flex-row">
