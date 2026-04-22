@@ -15,5 +15,6 @@ Route::post('/signup', [AuthController::class, 'signup']);
 Route::get('/s',[HomeController::class, 'index'])->name('home');
 
 Route::get('/',[HomeController::class, 'index'])->name('home');
+Route::get('/kanal/{slug}',[HomeController::class, 'showKanal'])->name('home.kanal');
 
 Route::get('/events/{event}', [EventController::class, 'show'])->name('events.show');
